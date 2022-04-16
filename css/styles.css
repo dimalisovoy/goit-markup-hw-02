@@ -13,13 +13,6 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.container {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: auto;
-}
-
 p,
 h1,
 h2,
@@ -219,13 +212,12 @@ button {
 }
 
 /* about */
-
 .about {
   background-color: var(--fon-color);
 }
 
-.about-item {
-  background-image: var(--fon-color);
+.card-text {
+  background-color: var(--white-text-color);
 }
 
 .about-title {
@@ -268,7 +260,7 @@ button {
   color: var(--primari-text-color);
 }
 
-.footer {
+.container-footer {
   background-color: var(--black-backg-color);
 }
 
@@ -278,15 +270,6 @@ button {
   font-size: 26px;
   line-height: 1.19;
   color: var(--white-text-color);
-}
-
-.footer-web {
-  font-family: "Raleway";
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: var(--accent-color);
 }
 
 .address {
@@ -328,6 +311,31 @@ button {
 
 /*-----Портфолио-----*/
 
+.header-logo {
+}
+.link {
+}
+.header-nav {
+}
+.header-list {
+}
+.list {
+}
+.header-item {
+}
+.header-link {
+}
+.current {
+}
+.contact {
+}
+.contact-item {
+}
+.contact-mail {
+}
+.contact-tel {
+}
+
 .main-title {
   font-weight: 700;
   font-size: 18px;
@@ -344,7 +352,12 @@ button {
   color: var(--primari-text-color);
 }
 
-/*-----ПОРТФОЛИО-----*/
+.main-button:hover,
+.main-button:focus {
+  background-color: var(--focus-color);
+  color: var(--accent-color);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
 
 .gallery-title {
   color: var(--title-text-color);
@@ -356,11 +369,4 @@ button {
 
 .main-button {
   border-color: transparent;
-}
-
-.main-button:hover,
-.main-button:focus {
-  background-color: var(--focus-color);
-  color: var(--accent-color);
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
