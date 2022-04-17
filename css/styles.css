@@ -13,21 +13,6 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-p,
-h1,
-h2,
-h3,
-h4,
-h5 {
-  margin: 0;
-}
-
-ul,
-ol {
-  padding-left: 0;
-  margin: 0;
-}
-
 button {
   cursor: pointer;
 }
@@ -328,14 +313,16 @@ button {
 }
 
 .main-button {
-  border-color: transparent;
+  color: var(--title-text-color);
 }
 
-.main-button:hover,
-.main-button:focus {
-  background-color: var(--focus-color);
-  color: var(--accent-color);
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+.main-button:hover {
+  background-color: var(--button-color);
+  color: var(--white-text-color);
+}
+
+.contact-item {
+  text-decoration: none;
 }
 
 .gallery-title {
